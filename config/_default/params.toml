@@ -1,0 +1,52 @@
+# -- Theme Options --
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = false
+
+disableImageOptimization = false
+defaultBackgroundImage = "/img/background.svg"
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "news"
+  cardView = true
+
+[article]
+  showDate = true
+  showAuthor = false
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showReadingTime = false
+  showTableOfContents = true
+  showRelatedContent = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = true
+  showSummary = true
+  groupByYear = true
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true

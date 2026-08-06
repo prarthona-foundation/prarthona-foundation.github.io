@@ -1,0 +1,16 @@
+locale = "de-DE"
+label = "Deutsch"
+weight = 1
+title = "Prarthona Foundation e.V."
+
+[params]
+  displayName = "Deutsch"
+  isoCode = "de"
+  rtl = false
+  dateFormat = "2. January 2006"
+  logo = ""
+  description = "Prarthona Foundation e.V. – gemeinnützige Stiftung für Stipendien und Bildungsförderung."
+
+[params.author]
+  name = "Prarthona Foundation e.V."
+  bio = "Gemeinnützige Stiftung für Stipendien und Bildungsförderung."

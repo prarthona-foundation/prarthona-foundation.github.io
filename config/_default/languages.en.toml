@@ -1,0 +1,16 @@
+locale = "en-US"
+label = "English"
+weight = 2
+title = "Prarthona Foundation e.V."
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  description = "Prarthona Foundation e.V. – a non-profit organization supporting scholarships and education."
+
+[params.author]
+  name = "Prarthona Foundation e.V."
+  bio = "Non-profit organization supporting scholarships and education."

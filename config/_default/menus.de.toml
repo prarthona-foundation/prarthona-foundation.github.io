@@ -1,0 +1,44 @@
+[[main]]
+  name = "Start"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Über uns"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Programme"
+  pageRef = "programs"
+  weight = 30
+
+[[main]]
+  name = "Bewerben"
+  pageRef = "apply"
+  weight = 40
+
+[[main]]
+  name = "Spenden"
+  pageRef = "donate"
+  weight = 50
+
+[[main]]
+  name = "News"
+  pageRef = "news"
+  weight = 60
+
+[[main]]
+  name = "Kontakt"
+  pageRef = "contact"
+  weight = 70
+
+[[footer]]
+  name = "Impressum"
+  pageRef = "impressum"
+  weight = 10
+
+[[footer]]
+  name = "Datenschutz"
+  pageRef = "datenschutz"
+  weight = 20
