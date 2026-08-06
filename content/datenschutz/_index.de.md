@@ -5,6 +5,9 @@ sitemap:
   disable: true
 ---
 
+Eine [englische Übersetzung](/datenschutz/) steht zur Verfügung. Maßgeblich ist
+die deutsche Fassung.
+
 > **TODO:** Diese Datenschutzerklärung ist ein Platzhalter und deckt noch keine konkreten Dienste ab. Sobald Tally.so (Bewerbungsformular), PayPal (Spenden) oder Analyse-Tools eingebunden werden, müssen die jeweiligen Abschnitte ergänzt werden (welche Daten, wozu, Rechtsgrundlage, Drittanbieter außerhalb der EU). Am besten mit einem Generator (z. B. e-recht24.de) oder einem Anwalt erstellen/prüfen.
 
 ## 1. Verantwortlicher
