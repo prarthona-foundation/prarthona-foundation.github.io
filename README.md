@@ -31,18 +31,22 @@ Both do the same thing: build the site and force-push the output to the
 
 Pages live in `content/`, one file per language:
 
-| Page | German | English |
+| Page | English | German |
 | --- | --- | --- |
-| Home | `content/_index.de.md` | `content/_index.en.md` |
-| About | `content/about/_index.de.md` | `content/about/_index.en.md` |
-| Programs | `content/programs/_index.de.md` | `content/programs/_index.en.md` |
-| Apply | `content/apply/_index.de.md` | `content/apply/_index.en.md` |
-| Donate | `content/donate/_index.de.md` | `content/donate/_index.en.md` |
-| Contact | `content/contact/_index.de.md` | `content/contact/_index.en.md` |
+| Home | `content/_index.en.md` | `content/_index.de.md` |
+| About | `content/about/_index.en.md` | `content/about/_index.de.md` |
+| Programs | `content/programs/_index.en.md` | `content/programs/_index.de.md` |
+| Apply | `content/apply/_index.en.md` | `content/apply/_index.de.md` |
+| Donate | `content/donate/_index.en.md` | `content/donate/_index.de.md` |
+| Contact | `content/contact/_index.en.md` | `content/contact/_index.de.md` |
 
-German is the default language and is served at the root; English is at
-`/en/`. Navigation labels are in `config/_default/menus.de.toml` and
-`menus.en.toml`.
+English is the default language and is served at the root; German is at
+`/de/`. Navigation labels are in `config/_default/menus.en.toml` and
+`menus.de.toml`.
+
+To swap which language is the default, change `defaultContentLanguage` in
+`config/_default/hugo.toml` and the `weight` values in
+`config/_default/languages.*.toml` (weight 1 comes first).
 
 To add a news post:
 
@@ -56,7 +60,7 @@ Remove `draft: true` from the front matter to publish it.
 
 In `config/_default/params.toml`:
 
-- `colorScheme` — currently `bloody`. Other options: `blowfish`, `avocado`,
+- `colorScheme` — currently `avocado`. Other options: `blowfish`, `bloody`,
   `fire`, `ocean`, `forest`, `princess`, `neon`, `terminal`, `marvel`, `noir`,
   `autumn`, `congo`, `slate`, `github`, `one-light`.
 - `[homepage] layout` — currently `card`. Other options: `page`, `profile`,

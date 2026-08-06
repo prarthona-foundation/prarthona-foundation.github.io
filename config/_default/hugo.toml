@@ -1,6 +1,6 @@
 theme = "blowfish"
 baseURL = "https://prarthona-foundation.github.io/"
-defaultContentLanguage = "de"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
