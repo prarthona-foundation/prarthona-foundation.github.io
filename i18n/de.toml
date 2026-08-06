@@ -16,8 +16,11 @@ other = "Stipendium beantragen"
 [home_impact_title]
 other = "Unsere Wirkung"
 
-[home_impact_students]
-other = "Geförderte Schüler:innen"
+[home_impact_active]
+other = "Aktive Stipendiat:innen"
+
+[home_impact_graduated]
+other = "Absolvent:innen"
 
 [home_impact_scholarships]
 other = "Vergebene Stipendien"

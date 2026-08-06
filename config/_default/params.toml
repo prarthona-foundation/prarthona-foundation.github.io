@@ -26,9 +26,10 @@ defaultBackgroundImage = "/img/background.svg"
 
 # Numbers shown in the "Our Impact" section of the homepage.
 [impact]
-  students = 6
+  active = 3
   scholarships = 6
-  years = 3
+  graduated = 2
+  years = 4
 
 # Executive committee, shown on the About page under "Our Team".
 # `role` must match an about_role_* key in i18n/en.toml and i18n/de.toml.

@@ -16,8 +16,11 @@ other = "Apply for Scholarship"
 [home_impact_title]
 other = "Our Impact"
 
-[home_impact_students]
-other = "Students Supported"
+[home_impact_active]
+other = "Active Scholars"
+
+[home_impact_graduated]
+other = "Graduated"
 
 [home_impact_scholarships]
 other = "Scholarships Awarded"
