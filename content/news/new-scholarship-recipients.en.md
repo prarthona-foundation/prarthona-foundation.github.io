@@ -1,22 +1,22 @@
 ---
 title: "New Scholarship Recipients"
 date: 2026-07-22
-description: "Six students have been awarded scholarships for the coming academic year. For now, we are unable to offer further places."
+description: "Three students have been awarded scholarships for the coming academic year. For now, we are unable to offer further places."
 categories: ["Announcements", "Student Achievements"]
 ---
 
-Six students have been awarded scholarships for the coming academic year,
+Three students have been awarded scholarships for the coming academic year,
 covering school and university fees, learning materials, and exam costs.
 
 Each recipient was assessed on the same two criteria: academic promise and
-financial need. All six have now been matched with a mentor who will stay with
-them throughout the year.
+financial need. All three have now been matched with a mentor who will stay
+with them throughout the year.
 
 ## No further places for now
 
 We also have to be honest about our limits. Under current financial
 constraints, we are unable to extend the programme or offer any new
-scholarships beyond these six.
+scholarships beyond these three.
 
 This is not a decision we take lightly, and it is not a reflection on the
 applicants we could not fund. It simply means that committing to another

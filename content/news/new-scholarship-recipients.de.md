@@ -1,21 +1,21 @@
 ---
 title: "Neue Stipendiatinnen und Stipendiaten"
 date: 2026-07-22
-description: "Sechs junge Menschen erhalten im kommenden Schuljahr ein Stipendium. Weitere Plätze können wir derzeit nicht vergeben."
+description: "Drei junge Menschen erhalten im kommenden Schuljahr ein Stipendium. Weitere Plätze können wir derzeit nicht vergeben."
 categories: ["Ankündigungen", "Erfolge"]
 ---
 
-Sechs junge Menschen erhalten im kommenden Schul- und Studienjahr ein
+Drei junge Menschen erhalten im kommenden Schul- und Studienjahr ein
 Stipendium. Es deckt Gebühren, Lernmaterial und Prüfungskosten ab.
 
 Alle Bewerbungen wurden nach denselben zwei Kriterien geprüft: schulische
-Leistung und finanzielle Bedürftigkeit. Jede und jeder Geförderte hat inzwischen
-eine Mentorin oder einen Mentor an der Seite.
+Leistung und finanzielle Bedürftigkeit. Alle drei haben inzwischen eine
+Mentorin oder einen Mentor an der Seite.
 
 ## Vorerst keine weiteren Plätze
 
 Wir wollen offen über unsere Grenzen sprechen. Aufgrund der derzeitigen
-finanziellen Lage können wir das Programm nicht erweitern und über diese sechs
+finanziellen Lage können wir das Programm nicht erweitern und über diese drei
 Plätze hinaus keine neuen Stipendien vergeben.
 
 Diese Entscheidung fällt uns nicht leicht, und sie sagt nichts über die
