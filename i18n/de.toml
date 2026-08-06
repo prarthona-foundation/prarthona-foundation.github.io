@@ -360,3 +360,23 @@ other = "Noch keine Beiträge."
 
 [news_read]
 other = "Lesen"
+
+# ---------- Vorstand und Kontakt ----------
+
+[about_role_president]
+other = "Präsident:in"
+
+[about_role_general_secretary]
+other = "Generalsekretär:in"
+
+[about_role_treasurer]
+other = "Schatzmeister:in"
+
+[about_team_exec_lede]
+other = "Der Vorstand wird von den Mitgliedern gewählt und arbeitet ehrenamtlich und unvergütet."
+
+[contact_email]
+other = "E-Mail"
+
+[contact_address]
+other = "Anschrift"

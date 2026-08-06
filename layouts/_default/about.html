@@ -90,12 +90,28 @@
     <section>
       <div class="pf-section__head">
         <h2 class="pf-section__title">{{ i18n "about_team_title" }}</h2>
+        <p class="pf-section__lede">{{ i18n "about_team_exec_lede" }}</p>
       </div>
-      <div class="pf-cards">
-        <div class="pf-card">
-          <h3 class="pf-card__title">{{ i18n "about_team_exec_title" }}</h3>
-          <p class="pf-card__text">{{ i18n "about_team_exec_desc" }}</p>
+
+      {{/* Named officers, from [[team]] in params.toml. */}}
+      {{ with site.Params.team }}
+        <div class="pf-people">
+          {{ range . }}
+            {{/* Initials for the avatar, e.g. "Taposhi Roy" -> "TR". */}}
+            {{ $initials := "" }}
+            {{ range (split .name " ") }}
+              {{ if . }}{{ $initials = printf "%s%s" $initials (upper (substr . 0 1)) }}{{ end }}
+            {{ end }}
+            <div class="pf-person">
+              <span class="pf-person__avatar" aria-hidden="true">{{ $initials }}</span>
+              <span class="pf-person__name">{{ .name }}</span>
+              <span class="pf-person__role">{{ i18n (printf "about_role_%s" .role) }}</span>
+            </div>
+          {{ end }}
         </div>
+      {{ end }}
+
+      <div class="pf-cards">
         <div class="pf-card">
           <h3 class="pf-card__title">{{ i18n "about_team_founding_title" }}</h3>
           <p class="pf-card__text">{{ i18n "about_team_founding_desc" }}</p>

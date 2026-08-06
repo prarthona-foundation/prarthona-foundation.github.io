@@ -360,3 +360,23 @@ other = "No posts yet."
 
 [news_read]
 other = "Read"
+
+# ---------- Team roles and contact ----------
+
+[about_role_president]
+other = "President"
+
+[about_role_general_secretary]
+other = "General Secretary"
+
+[about_role_treasurer]
+other = "Treasurer"
+
+[about_team_exec_lede]
+other = "The executive committee is elected by the members and serves on a voluntary, unpaid basis."
+
+[contact_email]
+other = "Email"
+
+[contact_address]
+other = "Address"

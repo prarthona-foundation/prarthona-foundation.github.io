@@ -5,15 +5,22 @@ sitemap:
   disable: true
 ---
 
-> **TODO:** Diese Angaben sind gesetzlich vorgeschrieben (§ 5 TMG) und müssen korrekt und vollständig ausgefüllt werden, bevor die Seite veröffentlicht wird. Am besten mit einem Generator (z. B. e-recht24.de) oder einem Anwalt prüfen.
+> **TODO:** Bitte prüfen, ob diese Angaben vollständig und korrekt sind — sie
+> sind gesetzlich vorgeschrieben (§ 5 TMG). Offen sind noch die Telefonnummer
+> und die Frage, welches Vorstandsmitglied inhaltlich verantwortlich ist. Am
+> besten mit einem Generator (z. B. e-recht24.de) oder einem Anwalt prüfen.
 
 ## Angaben gemäß § 5 TMG
 
 Prarthona i. G.
-[Straße und Hausnummer]
-[PLZ und Ort]
+Glogauer Str. 10b
+90579 Langenzenn
+Deutschland
 
-**Vertreten durch:** [Name des/der Vorstands]
+**Vertreten durch den Vorstand:**
+Taposhi Roy (Präsident:in)
+Bishwajit Gosswami (Generalsekretär:in)
+Alfred Bhowmick (Schatzmeister:in)
 
 **Rechtsform und Registereintrag:**
 Prarthona i. G. (in Gründung) befindet sich derzeit im Verfahren der Eintragung
@@ -26,10 +33,8 @@ Registergericht: [Amtsgericht]
 Registernummer: [VR-Nummer]
 
 **Kontakt:**
-Telefon: [Telefonnummer]
-E-Mail: [E-Mail-Adresse]
+E-Mail: [prarthona.foundation@gmail.com](mailto:prarthona.foundation@gmail.com)
+Telefon: [Telefonnummer ergänzen]
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
-[Name, Anschrift]
-
-*Falls gemeinnützig: Freistellungsbescheid / Angaben zur Gemeinnützigkeit nach Bedarf ergänzen.*
+[Name des verantwortlichen Vorstandsmitglieds], Anschrift wie oben

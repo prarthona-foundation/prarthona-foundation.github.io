@@ -30,6 +30,27 @@ defaultBackgroundImage = "/img/background.svg"
   scholarships = 6
   years = 3
 
+# Executive committee, shown on the About page under "Our Team".
+# `role` must match an about_role_* key in i18n/en.toml and i18n/de.toml.
+[[team]]
+  name = "Taposhi Roy"
+  role = "president"
+
+[[team]]
+  name = "Bishwajit Gosswami"
+  role = "general_secretary"
+
+[[team]]
+  name = "Alfred Bhowmick"
+  role = "treasurer"
+
+# Contact details, shown on the Contact page and in the Legal Notice.
+[contact]
+  email = "prarthona.foundation@gmail.com"
+  street = "Glogauer Str. 10b"
+  city = "90579 Langenzenn"
+  country = "Germany"
+
 # Donation details.
 #
 # IMPORTANT: fill in the real values before publishing. Anything left
