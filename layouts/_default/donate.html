@@ -1,0 +1,168 @@
+{{/*
+  Donate page layout.
+
+  "Why Donate" prose comes from the markdown body of
+  content/donate/_index.<lang>.md.
+  Copy lives in i18n/en.toml and i18n/de.toml.
+  Bank and payment details live under [donate] in params.toml — any value
+  left empty renders as "To be added", never as an invented placeholder.
+
+  Activated by `layout: donate` in that page's front matter.
+*/}}
+{{ define "main" }}
+  {{ $d := site.Params.donate }}
+  {{ $contact := "contact/" }}
+
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+  </header>
+
+  <div class="pf-home mt-10">
+
+    {{/* ---------- 1. Why donate ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "donate_why_title" }}</h2>
+      </div>
+      <blockquote class="pf-quote">
+        <p class="pf-quote__text">{{ i18n "donate_why_quote" }}</p>
+      </blockquote>
+      <p class="pf-mission__body">{{ i18n "donate_why_body" }}</p>
+      {{ with .Content }}
+        <div class="prose dark:prose-invert max-w-none mt-4">{{ . }}</div>
+      {{ end }}
+    </section>
+
+    {{/* ---------- 2. How your donation helps ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "donate_helps_title" }}</h2>
+        <p class="pf-section__lede">{{ i18n "donate_helps_lede" }}</p>
+      </div>
+      {{ $tiers := slice
+        (dict "amount" "20"  "key" "20"  "unit" "" "feature" false)
+        (dict "amount" "50"  "key" "50"  "unit" (i18n "donate_tier_month") "feature" false)
+        (dict "amount" "100" "key" "100" "unit" "" "feature" false)
+        (dict "amount" "400" "key" "400" "unit" "" "feature" true)
+      }}
+      <div class="pf-tiers">
+        {{ range $tiers }}
+          <div class="pf-tier{{ if .feature }} pf-tier--feature{{ end }}">
+            <span class="pf-tier__amount">&euro;{{ .amount }}</span>
+            {{ with .unit }}<span class="pf-tier__unit">{{ . }}</span>{{ end }}
+            <span class="pf-tier__label">{{ i18n (printf "donate_tier_%s" .key) }}</span>
+            <span class="pf-tier__desc">{{ i18n (printf "donate_tier_%s_desc" .key) }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* ---------- 3. Ways to donate ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "donate_ways_title" }}</h2>
+      </div>
+
+      {{/* Bank transfer, with details from config. */}}
+      <div class="pf-card" style="margin-bottom:1.25rem">
+        <h3 class="pf-card__title">{{ i18n "donate_way_bank" }}</h3>
+        <p class="pf-card__text">{{ i18n "donate_way_bank_desc" }}</p>
+        <div class="pf-bank">
+          {{ $rows := slice
+            (dict "label" (i18n "donate_bank_holder") "value" $d.accountHolder)
+            (dict "label" (i18n "donate_bank_iban")   "value" $d.iban)
+            (dict "label" (i18n "donate_bank_bic")    "value" $d.bic)
+            (dict "label" (i18n "donate_bank_name")   "value" $d.bankName)
+          }}
+          {{ range $rows }}
+            <span class="pf-bank__key">{{ .label }}</span>
+            {{ if .value }}
+              <span class="pf-bank__val">{{ .value }}</span>
+            {{ else }}
+              <span class="pf-bank__val pf-bank__val--todo">{{ i18n "donate_not_configured" }}</span>
+            {{ end }}
+          {{ end }}
+          <span class="pf-bank__key">{{ i18n "donate_bank_reference" }}</span>
+          <span class="pf-bank__val">{{ i18n "donate_bank_reference_value" }}</span>
+        </div>
+      </div>
+
+      {{/* Other ways. */}}
+      <div class="pf-cards">
+        <div class="pf-card">
+          <h3 class="pf-card__title">{{ i18n "donate_way_paypal" }}</h3>
+          <p class="pf-card__text">{{ i18n "donate_way_paypal_desc" }}</p>
+          {{ if $d.paypalURL }}
+            <a class="pf-card__more" href="{{ $d.paypalURL }}" rel="noopener noreferrer" target="_blank">
+              {{ i18n "donate_way_paypal" }} &rarr;
+            </a>
+          {{ else }}
+            <span class="pf-card__more" style="opacity:.55">{{ i18n "donate_not_configured" }}</span>
+          {{ end }}
+        </div>
+
+        <div class="pf-card">
+          <h3 class="pf-card__title">{{ i18n "donate_way_online" }}</h3>
+          <p class="pf-card__text">{{ i18n "donate_way_online_desc" }}</p>
+          {{ if $d.onlineURL }}
+            <a class="pf-card__more" href="{{ $d.onlineURL }}" rel="noopener noreferrer" target="_blank">
+              {{ i18n "donate_way_online" }} &rarr;
+            </a>
+          {{ else }}
+            <span class="pf-card__more" style="opacity:.55">{{ i18n "donate_not_configured" }}</span>
+          {{ end }}
+        </div>
+
+        <div class="pf-card">
+          <h3 class="pf-card__title">{{ i18n "donate_way_monthly" }}</h3>
+          <p class="pf-card__text">{{ i18n "donate_way_monthly_desc" }}</p>
+        </div>
+      </div>
+
+      {{/* Corporate sponsorship. */}}
+      <a class="pf-card" href="{{ relLangURL $contact }}" style="margin-top:1.25rem">
+        <span class="pf-card__icon">{{ partial "icon.html" "star" }}</span>
+        <h3 class="pf-card__title">{{ i18n "donate_way_corporate" }}</h3>
+        <p class="pf-card__text">{{ i18n "donate_way_corporate_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "donate_way_corporate_cta" }} &rarr;</span>
+      </a>
+    </section>
+
+    {{/* ---------- 4. Transparency ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "donate_transparency_title" }}</h2>
+      </div>
+      <p class="pf-mission__body">{{ i18n "donate_transparency_body" }}</p>
+
+      <h3 class="pf-card__title" style="margin-top:1.75rem">{{ i18n "donate_docs_title" }}</h3>
+      <div class="pf-docs">
+        {{ range slice "annual" "financial" "governance" }}
+          <span class="pf-doc">
+            {{ partial "icon.html" "file-lines" }}
+            {{ i18n (printf "donate_doc_%s" .) }}
+            <span class="pf-doc__status">&middot; {{ i18n "donate_doc_pending" }}</span>
+          </span>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* ---------- 5. FAQ ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "donate_faq_title" }}</h2>
+      </div>
+      <div class="pf-faq">
+        {{ range slice "tax" "receipt" "contact" }}
+          <details class="pf-faq__item">
+            <summary class="pf-faq__q">{{ i18n (printf "donate_faq_%s_q" .) }}</summary>
+            <p class="pf-faq__a">{{ i18n (printf "donate_faq_%s_a" .) }}</p>
+          </details>
+        {{ end }}
+      </div>
+    </section>
+
+  </div>
+{{ end }}

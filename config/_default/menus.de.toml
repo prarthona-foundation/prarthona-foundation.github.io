@@ -34,11 +34,31 @@
   weight = 70
 
 [[footer]]
+  name = "Programme"
+  pageRef = "programs"
+  weight = 10
+
+[[footer]]
+  name = "Spenden"
+  pageRef = "donate"
+  weight = 20
+
+[[footer]]
+  name = "Bewerben"
+  pageRef = "apply"
+  weight = 30
+
+[[footer]]
+  name = "Kontakt"
+  pageRef = "contact"
+  weight = 40
+
+[[footer]]
   name = "Impressum"
   pageRef = "impressum"
-  weight = 10
+  weight = 50
 
 [[footer]]
   name = "Datenschutz"
   pageRef = "datenschutz"
-  weight = 20
+  weight = 60

@@ -1,0 +1,362 @@
+# Homepage copy (English).
+# Edit the text here — the homepage layout reads these strings.
+
+[home_hero_headline]
+other = "Empowering Dreams Through Education"
+
+[home_hero_subheading]
+other = "A community-driven initiative that supports students from underprivileged hindu minority communities in Bangladesh, with the goal of supporting them become educated, self-reliant, and contributors to society."
+
+[home_cta_donate]
+other = "Donate Now"
+
+[home_cta_apply]
+other = "Apply for Scholarship"
+
+[home_impact_title]
+other = "Our Impact"
+
+[home_impact_students]
+other = "Students Supported"
+
+[home_impact_scholarships]
+other = "Scholarships Awarded"
+
+[home_impact_years]
+other = "Years of Service"
+
+[home_mission_title]
+other = "Our Mission"
+
+[home_mission_body]
+other = "Prarthona i. G. empowers talented students from financially disadvantaged backgrounds and marginalized religious minorities in Bangladesh by providing scholarships, long-term mentorship, and continuous guidance. We fund tuition and university fees, pair each student with a dedicated mentor, and follow their journey until graduation. We believe education is the most sustainable path to breaking the cycle of poverty, safeguarding dignity, and creating leaders who give back to society."
+
+[home_programs_title]
+other = "Our Programs"
+
+[home_programs_lede]
+other = "Three connected commitments — money, guidance, and follow-through."
+
+[home_program_scholarship_title]
+other = "Scholarship Program"
+
+[home_program_scholarship_desc]
+other = "Direct financial support for school and university fees, books, and exam costs, so that money is never the reason a capable student stops studying."
+
+[home_program_mentorship_title]
+other = "Mentorship"
+
+[home_program_mentorship_desc]
+other = "Every student is paired with a mentor for guidance on subject choices, applications, and the practical questions a first-generation student has no one else to ask."
+
+[home_program_review_title]
+other = "Student Progress Review"
+
+[home_program_review_desc]
+other = "Regular check-ins on academic progress and wellbeing, so we can step in early when a student is struggling rather than after the results arrive."
+
+[home_program_more]
+other = "Learn more"
+
+[home_news_title]
+other = "Latest News"
+
+[home_news_empty]
+other = "News and updates from the foundation will appear here."
+
+[home_news_all]
+other = "All news"
+
+[home_involved_title]
+other = "Get Involved"
+
+[home_involved_lede]
+other = "Three ways to support a student this year."
+
+[home_involved_donate_title]
+other = "Donate"
+
+[home_involved_donate_desc]
+other = "Fund a scholarship in full or contribute what you can. Every donation goes directly toward a student's fees."
+
+[home_involved_volunteer_title]
+other = "Volunteer"
+
+[home_involved_volunteer_desc]
+other = "Become a mentor or help with reviews, admissions guidance, and events. A few hours a month makes a measurable difference."
+
+[home_involved_partner_title]
+other = "Become a Partner"
+
+[home_involved_partner_desc]
+other = "Schools, universities, and companies can partner with us to widen access, fund cohorts, or open doors to internships."
+
+[home_involved_contact]
+other = "Get in touch"
+
+# ---------- About page ----------
+
+[about_story_title]
+other = "Our Purpose"
+
+[about_vision_title]
+other = "Vision"
+
+[about_vision_desc]
+other = "A future where a student's potential, not their family's income, decides how far they go."
+
+[about_mission_title]
+other = "Mission"
+
+[about_mission_desc]
+other = "To fund, mentor, and stay alongside talented students from low-income families until they graduate."
+
+[about_values_title]
+other = "Core Values"
+
+[about_values_desc]
+other = "Dignity over pity. Consistency over one-off gestures. Openness about what we spend and what we achieve."
+
+[about_philosophy_title]
+other = "Our Philosophy"
+
+[about_philosophy_quote]
+other = "Education is not charity. It is empowerment."
+
+[about_philosophy_body]
+other = "We do not describe our students as recipients. They earned their place; what they lacked was the means to keep it. Our role is to remove a financial obstacle and then stay useful — not to be thanked."
+
+[about_how_title]
+other = "The Scholarship Journey"
+
+[about_how_lede]
+other = "Every scholarship follows the same path, from first application to alumni."
+
+[about_step_application]
+other = "Application"
+
+[about_step_application_desc]
+other = "A student applies with school records and a short statement of need."
+
+[about_step_selection]
+other = "Selection"
+
+[about_step_selection_desc]
+other = "We review academic promise and financial circumstances together."
+
+[about_step_award]
+other = "Award"
+
+[about_step_award_desc]
+other = "Fees are paid directly, and a mentor is assigned."
+
+[about_step_review]
+other = "Progress Review"
+
+[about_step_review_desc]
+other = "Regular check-ins on results and wellbeing throughout the year."
+
+[about_step_graduation]
+other = "Graduation"
+
+[about_step_graduation_desc]
+other = "Support continues to the end of the qualification, not just the first year."
+
+[about_step_alumni]
+other = "Alumni"
+
+[about_step_alumni_desc]
+other = "Graduates stay connected — many return as mentors."
+
+[about_team_title]
+other = "Our Team"
+
+[about_team_exec_title]
+other = "Executive Committee"
+
+[about_team_exec_desc]
+other = "Responsible for day-to-day decisions, scholarship selection, and the foundation's finances under German association law."
+
+[about_team_founding_title]
+other = "Founding Members"
+
+[about_team_founding_desc]
+other = "The people who established the foundation and set its purpose, and who continue to guide its direction."
+
+[about_team_volunteers_title]
+other = "Volunteers"
+
+[about_team_volunteers_desc]
+other = "Mentors, reviewers, and helpers who give their time. No one at the foundation draws a salary from donations."
+
+[about_gov_title]
+other = "Governance"
+
+[about_gov_transparency_title]
+other = "Transparency"
+
+[about_gov_transparency_desc]
+other = "We publish what we fund and how many students we support. Anyone who donates can ask where their money went and get a straight answer."
+
+[about_gov_financial_title]
+other = "Financial Accountability"
+
+[about_gov_financial_desc]
+other = "We keep proper accounts, and funds are used solely for the charitable purpose set out in our statutes. Prarthona i. G. is currently completing registration as a tax-exempt non-profit association under German law."
+
+# ---------- Donate page ----------
+
+[donate_why_title]
+other = "Why Donate"
+
+[donate_why_quote]
+other = "Education changes lives."
+
+[donate_why_body]
+other = "A scholarship does not end with one student. It changes what a family believes is possible, and it changes who the next child in that household grows up watching. We keep our numbers small on purpose, so every donation can be traced to a named student and a real cost."
+
+[donate_helps_title]
+other = "How Your Donation Helps"
+
+[donate_helps_lede]
+other = "What each amount actually pays for."
+
+[donate_tier_20]
+other = "Books"
+
+[donate_tier_20_desc]
+other = "Textbooks and study materials for a term."
+
+[donate_tier_50]
+other = "Monthly support"
+
+[donate_tier_50_desc]
+other = "Ongoing costs for one student — transport, supplies, exam fees."
+
+[donate_tier_100]
+other = "Semester expenses"
+
+[donate_tier_100_desc]
+other = "A student's costs for half an academic year."
+
+[donate_tier_400]
+other = "Full scholarship, one year"
+
+[donate_tier_400_desc]
+other = "Covers one student's fees and support for a full academic year."
+
+[donate_tier_month]
+other = "per month"
+
+[donate_ways_title]
+other = "Ways to Donate"
+
+[donate_way_bank]
+other = "Bank Transfer"
+
+[donate_way_bank_desc]
+other = "A direct SEPA transfer costs us nothing in fees, so the full amount reaches a student."
+
+[donate_way_paypal]
+other = "PayPal"
+
+[donate_way_paypal_desc]
+other = "Quick and familiar, with the option to give in a few clicks."
+
+[donate_way_online]
+other = "Online Payment"
+
+[donate_way_online_desc]
+other = "Card payment through our online donation form."
+
+[donate_way_monthly]
+other = "Monthly Giving"
+
+[donate_way_monthly_desc]
+other = "A standing order is the most useful gift we receive — it lets us promise a student support for a full year."
+
+[donate_way_corporate]
+other = "Corporate Sponsorship"
+
+[donate_way_corporate_desc]
+other = "Companies can fund a named scholarship, sponsor a cohort, or match employee donations. We are glad to discuss what suits your organisation."
+
+[donate_way_corporate_cta]
+other = "Talk to us about sponsorship"
+
+[donate_bank_holder]
+other = "Account holder"
+
+[donate_bank_iban]
+other = "IBAN"
+
+[donate_bank_bic]
+other = "BIC"
+
+[donate_bank_name]
+other = "Bank"
+
+[donate_bank_reference]
+other = "Reference"
+
+[donate_bank_reference_value]
+other = "Donation — your name"
+
+[donate_not_configured]
+other = "To be added"
+
+[donate_transparency_title]
+other = "Transparency"
+
+[donate_transparency_body]
+other = "Donations pay student fees, learning materials, and the direct costs of running our scholarship and mentoring programs. Our committee members are unpaid volunteers. Every applicant is reviewed against the same two criteria — academic promise and financial need — and donors who fund a scholarship are told how that student is progressing."
+
+[donate_docs_title]
+other = "Reports and accounts"
+
+[donate_doc_annual]
+other = "Annual Reports"
+
+[donate_doc_financial]
+other = "Financial Statements"
+
+[donate_doc_governance]
+other = "Governance"
+
+[donate_doc_pending]
+other = "Available on request"
+
+[donate_faq_title]
+other = "Frequently Asked Questions"
+
+[donate_faq_tax_q]
+other = "Is my donation tax-deductible?"
+
+[donate_faq_tax_a]
+other = "Not yet. Prarthona i. G. is in the process of being registered as a tax-exempt non-profit association (gemeinnütziger e.V.), and recognition by the tax office is still pending. Until that is confirmed we cannot issue donation receipts for tax purposes, and we would rather say so plainly than imply otherwise. We will update this page as soon as the status is granted."
+
+[donate_faq_receipt_q]
+other = "Will I receive a donation receipt?"
+
+[donate_faq_receipt_a]
+other = "Yes. We issue a donation receipt (Zuwendungsbestätigung) for your tax return. For smaller donations, German tax rules often accept your bank statement as proof instead. If you would like a receipt, send us your name and postal address with your donation, or contact us afterwards."
+
+[donate_faq_contact_q]
+other = "Can I choose what my donation supports?"
+
+[donate_faq_contact_a]
+other = "Yes. If you would like your donation to go toward a specific programme, or to fund a full scholarship, get in touch and we will arrange it."
+
+# ---------- News ----------
+
+[news_all]
+other = "All posts"
+
+[news_browse]
+other = "Browse by category"
+
+[news_empty]
+other = "No posts yet."
+
+[news_read]
+other = "Read"

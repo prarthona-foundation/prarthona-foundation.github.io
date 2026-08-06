@@ -22,12 +22,26 @@ defaultBackgroundImage = "/img/background.svg"
   showScrollToTop = true
 
 [homepage]
-  layout = "card"
-  showRecent = true
-  showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "news"
-  cardView = true
+  layout = "custom"
+
+# Numbers shown in the "Our Impact" section of the homepage.
+[impact]
+  students = 6
+  scholarships = 6
+  years = 3
+
+# Donation details.
+#
+# IMPORTANT: fill in the real values before publishing. Anything left
+# empty is shown on the Donate page as "To be added" rather than a
+# made-up value — never put a placeholder IBAN here.
+[donate]
+  accountHolder = ""
+  iban = ""
+  bic = ""
+  bankName = ""
+  paypalURL = ""
+  onlineURL = ""
 
 [article]
   showDate = true

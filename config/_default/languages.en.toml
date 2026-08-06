@@ -1,7 +1,7 @@
 locale = "en-US"
 label = "English"
 weight = 1
-title = "Prarthona Foundation e.V."
+title = "Prarthona i. G."
 
 [params]
   displayName = "English"
@@ -9,8 +9,9 @@ title = "Prarthona Foundation e.V."
   rtl = false
   dateFormat = "2 January 2006"
   logo = ""
-  description = "Prarthona Foundation e.V. – a non-profit organization supporting scholarships and education."
+  description = "Prarthona i. G. – a non-profit organization supporting scholarships and education."
 
 [params.author]
-  name = "Prarthona Foundation e.V."
+  name = "Prarthona i. G."
+  headline = "Scholarships and educational support for children who need them most."
   bio = "Non-profit organization supporting scholarships and education."

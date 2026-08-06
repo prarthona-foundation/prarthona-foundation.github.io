@@ -1,0 +1,60 @@
+{{/*
+  News section listing.
+
+  Categories are read from the taxonomy, so adding a new category to a
+  post's front matter makes it appear here automatically — nothing to
+  configure. Posts live in content/news/.
+*/}}
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+    {{ with .Description }}
+      <p class="mt-2 text-base text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="mt-8">
+
+    {{/* Category chips */}}
+    {{ $cats := site.Taxonomies.categories }}
+    {{ if $cats }}
+      <nav class="pf-cats" aria-label="{{ i18n `news_browse` }}">
+        <span class="pf-cat pf-cat--active">{{ i18n "news_all" }}</span>
+        {{ range $cats.ByCount }}
+          <a class="pf-cat" href="{{ .Page.RelPermalink }}">
+            {{ .Page.Title }}
+            <span class="pf-cat__count">{{ .Count }}</span>
+          </a>
+        {{ end }}
+      </nav>
+    {{ end }}
+
+    {{/* Posts, newest first */}}
+    {{ $posts := .Pages.ByDate.Reverse }}
+    {{ if $posts }}
+      <div class="pf-posts">
+        {{ range $posts }}
+          <a class="pf-post" href="{{ .RelPermalink }}">
+            <div class="pf-post__meta">
+              <span class="pf-post__date">
+                {{ .Date | time.Format (site.Params.dateFormat | default "2 January 2006") }}
+              </span>
+              {{ range .Params.categories }}
+                <span class="pf-post__cat">{{ . }}</span>
+              {{ end }}
+            </div>
+            <h2 class="pf-post__title">{{ .Title }}</h2>
+            {{ with .Description | default .Summary }}
+              <p class="pf-post__summary">{{ . | plainify }}</p>
+            {{ end }}
+          </a>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="pf-news__empty">{{ i18n "news_empty" }}</p>
+    {{ end }}
+
+  </div>
+{{ end }}

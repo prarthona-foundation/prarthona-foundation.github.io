@@ -1,8 +1,5 @@
 ---
 title: "Spenden"
-description: "Unterstützen Sie unsere Arbeit mit einer Spende."
+description: "Wie Sie ein Kind unterstützen, wofür Ihre Spende verwendet wird und wie wir darüber Rechenschaft ablegen."
+layout: donate
 ---
-
-## Jetzt spenden
-
-*Platzhalter — PayPal-Spendenbutton und SEPA-Bankdaten werden in Phase 2 ergänzt.*

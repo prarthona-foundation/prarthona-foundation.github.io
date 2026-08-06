@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact Prarthona Foundation e.V."
+description: "Contact Prarthona i. G."
 ---
 
 ## Contact

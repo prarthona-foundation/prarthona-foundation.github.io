@@ -1,9 +1,7 @@
 ---
-title: "Prarthona Foundation e.V."
+title: "Prarthona i. G."
 description: "Stipendien und Bildungsförderung für benachteiligte Kinder und Jugendliche."
 ---
-
-## Willkommen bei der Prarthona Foundation e.V.
 
 Wir sind eine gemeinnützige Organisation, die sich für Bildung und Chancengleichheit einsetzt.
 

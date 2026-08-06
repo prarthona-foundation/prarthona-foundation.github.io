@@ -1,7 +1,7 @@
 locale = "de-DE"
 label = "Deutsch"
 weight = 2
-title = "Prarthona Foundation e.V."
+title = "Prarthona i. G."
 
 [params]
   displayName = "Deutsch"
@@ -9,8 +9,9 @@ title = "Prarthona Foundation e.V."
   rtl = false
   dateFormat = "2. January 2006"
   logo = ""
-  description = "Prarthona Foundation e.V. – gemeinnützige Stiftung für Stipendien und Bildungsförderung."
+  description = "Prarthona i. G. – gemeinnützige Stiftung für Stipendien und Bildungsförderung."
 
 [params.author]
-  name = "Prarthona Foundation e.V."
+  name = "Prarthona i. G."
+  headline = "Stipendien und Bildungsförderung für Kinder, die sie am dringendsten brauchen."
   bio = "Gemeinnützige Stiftung für Stipendien und Bildungsförderung."

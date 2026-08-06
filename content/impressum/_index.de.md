@@ -9,14 +9,19 @@ sitemap:
 
 ## Angaben gemäß § 5 TMG
 
-Prarthona Foundation e.V.
+Prarthona i. G.
 [Straße und Hausnummer]
 [PLZ und Ort]
 
 **Vertreten durch:** [Name des/der Vorstands]
 
-**Registereintrag:**
-Eintragung im Vereinsregister
+**Rechtsform und Registereintrag:**
+Prarthona i. G. (in Gründung) befindet sich derzeit im Verfahren der Eintragung
+als gemeinnütziger Verein (gemeinnütziger e.V.) nach deutschem Recht. Die
+förmliche Eintragung beim zuständigen Amtsgericht sowie die Anerkennung der
+Gemeinnützigkeit durch das Finanzamt sind derzeit in Bearbeitung.
+
+Nach Abschluss der Eintragung werden hier ergänzt:
 Registergericht: [Amtsgericht]
 Registernummer: [VR-Nummer]
 

@@ -1,0 +1,362 @@
+# Startseiten-Texte (Deutsch).
+# Die Texte hier bearbeiten — das Startseiten-Layout liest diese Strings.
+
+[home_hero_headline]
+other = "Träume verwirklichen durch Bildung"
+
+[home_hero_subheading]
+other = "Es handelt sich um eine von der Gemeinschaft getragene Initiative, die Schüler aus benachteiligten hinduistischen Minderheitengemeinschaften in Bangladesch unterstützt. Das Ziel besteht darin, ihnen zu einer guten Ausbildung, Selbstständigkeit und einer aktiven Rolle in der Gesellschaft zu verhelfen."
+
+[home_cta_donate]
+other = "Jetzt spenden"
+
+[home_cta_apply]
+other = "Stipendium beantragen"
+
+[home_impact_title]
+other = "Unsere Wirkung"
+
+[home_impact_students]
+other = "Geförderte Schüler:innen"
+
+[home_impact_scholarships]
+other = "Vergebene Stipendien"
+
+[home_impact_years]
+other = "Jahre im Einsatz"
+
+[home_mission_title]
+other = "Unsere Mission"
+
+[home_mission_body]
+other = "Prarthona i. G. unterstützt begabte Studierende aus finanziell benachteiligten Verhältnissen sowie aus marginalisierten religiösen Minderheiten in Bangladesch mit Stipendien und einer langfristigen Betreuung. Wir übernehmen Studiengebühren und sonstige Hochschulkosten, weisen jedem Studierenden einen engagierten Mentor zu und begleiten ihn auf seinem Weg bis zum Abschluss. Wir sind davon überzeugt, dass Bildung der nachhaltigste Weg ist, um den Kreislauf der Armut zu durchbrechen, die Würde zu wahren und Führungskräfte hervorzubringen, die der Gesellschaft etwas zurückgeben."
+
+[home_programs_title]
+other = "Unsere Programme"
+
+[home_programs_lede]
+other = "Drei Bausteine, die zusammengehören — Förderung, Begleitung und Nachverfolgung."
+
+[home_program_scholarship_title]
+other = "Stipendienprogramm"
+
+[home_program_scholarship_desc]
+other = "Direkte finanzielle Unterstützung für Schul- und Studiengebühren, Bücher und Prüfungskosten — damit Geld nie der Grund ist, warum jemand die Ausbildung abbricht."
+
+[home_program_mentorship_title]
+other = "Mentoring"
+
+[home_program_mentorship_desc]
+other = "Jede und jeder Geförderte bekommt eine feste Mentorin oder einen Mentor: für Fächerwahl, Bewerbungen und all die praktischen Fragen, die sonst niemand beantwortet."
+
+[home_program_review_title]
+other = "Lernfortschritt im Blick"
+
+[home_program_review_desc]
+other = "Regelmäßige Gespräche zu Leistungen und Wohlbefinden — damit wir früh unterstützen können und nicht erst, wenn die Zeugnisse da sind."
+
+[home_program_more]
+other = "Mehr erfahren"
+
+[home_news_title]
+other = "Neuigkeiten"
+
+[home_news_empty]
+other = "Neuigkeiten und Berichte der Stiftung erscheinen hier."
+
+[home_news_all]
+other = "Alle Neuigkeiten"
+
+[home_involved_title]
+other = "Mitmachen"
+
+[home_involved_lede]
+other = "Drei Wege, in diesem Jahr ein Kind zu unterstützen."
+
+[home_involved_donate_title]
+other = "Spenden"
+
+[home_involved_donate_desc]
+other = "Finanzieren Sie ein ganzes Stipendium oder geben Sie, was möglich ist. Jede Spende fließt direkt in die Ausbildung."
+
+[home_involved_volunteer_title]
+other = "Ehrenamt"
+
+[home_involved_volunteer_desc]
+other = "Werden Sie Mentor:in oder helfen Sie bei Bewerbungen, Gesprächen und Veranstaltungen. Wenige Stunden im Monat bewirken viel."
+
+[home_involved_partner_title]
+other = "Partner werden"
+
+[home_involved_partner_desc]
+other = "Schulen, Hochschulen und Unternehmen können mit uns Zugänge schaffen, Jahrgänge fördern oder Praktika ermöglichen."
+
+[home_involved_contact]
+other = "Kontakt aufnehmen"
+
+# ---------- Über uns ----------
+
+[about_story_title]
+other = "Unser Auftrag"
+
+[about_vision_title]
+other = "Vision"
+
+[about_vision_desc]
+other = "Eine Zukunft, in der das Potenzial eines Kindes darüber entscheidet, wie weit es kommt — nicht das Einkommen der Familie."
+
+[about_mission_title]
+other = "Mission"
+
+[about_mission_desc]
+other = "Talentierte Schülerinnen und Schüler aus einkommensschwachen Familien finanzieren, begleiten und bis zum Abschluss unterstützen."
+
+[about_values_title]
+other = "Unsere Werte"
+
+[about_values_desc]
+other = "Würde statt Mitleid. Verlässlichkeit statt einmaliger Gesten. Offenheit darüber, wofür wir Geld ausgeben und was wir erreichen."
+
+[about_philosophy_title]
+other = "Unser Verständnis"
+
+[about_philosophy_quote]
+other = "Bildung ist keine Wohltätigkeit. Sie ist Befähigung."
+
+[about_philosophy_body]
+other = "Wir sprechen nicht von Empfängern. Diese jungen Menschen haben sich ihren Platz erarbeitet — es fehlten nur die Mittel, ihn zu halten. Unsere Aufgabe ist es, ein finanzielles Hindernis zu beseitigen und danach nützlich zu bleiben. Nicht, Dank zu bekommen."
+
+[about_how_title]
+other = "Der Weg eines Stipendiums"
+
+[about_how_lede]
+other = "Jedes Stipendium durchläuft denselben Weg — von der Bewerbung bis zum Alumni-Netzwerk."
+
+[about_step_application]
+other = "Bewerbung"
+
+[about_step_application_desc]
+other = "Bewerbung mit Zeugnissen und einer kurzen Darstellung der finanziellen Lage."
+
+[about_step_selection]
+other = "Auswahl"
+
+[about_step_selection_desc]
+other = "Wir betrachten schulische Leistung und finanzielle Situation gemeinsam."
+
+[about_step_award]
+other = "Zusage"
+
+[about_step_award_desc]
+other = "Gebühren werden direkt gezahlt, eine Mentorin oder ein Mentor wird zugeordnet."
+
+[about_step_review]
+other = "Lernfortschritt"
+
+[about_step_review_desc]
+other = "Regelmäßige Gespräche über Ergebnisse und Wohlbefinden im Laufe des Jahres."
+
+[about_step_graduation]
+other = "Abschluss"
+
+[about_step_graduation_desc]
+other = "Die Förderung läuft bis zum Abschluss — nicht nur im ersten Jahr."
+
+[about_step_alumni]
+other = "Alumni"
+
+[about_step_alumni_desc]
+other = "Ehemalige bleiben verbunden — viele kommen als Mentor:innen zurück."
+
+[about_team_title]
+other = "Unser Team"
+
+[about_team_exec_title]
+other = "Vorstand"
+
+[about_team_exec_desc]
+other = "Verantwortlich für die laufenden Entscheidungen, die Auswahl der Stipendiat:innen und die Finanzen des Vereins nach deutschem Vereinsrecht."
+
+[about_team_founding_title]
+other = "Gründungsmitglieder"
+
+[about_team_founding_desc]
+other = "Die Menschen, die den Verein gegründet und seinen Zweck festgelegt haben — und die seine Ausrichtung weiterhin prägen."
+
+[about_team_volunteers_title]
+other = "Ehrenamtliche"
+
+[about_team_volunteers_desc]
+other = "Mentor:innen und Helfer:innen, die ihre Zeit einbringen. Niemand im Verein bezieht ein Gehalt aus Spenden."
+
+[about_gov_title]
+other = "Transparenz und Verantwortung"
+
+[about_gov_transparency_title]
+other = "Transparenz"
+
+[about_gov_transparency_desc]
+other = "Wir legen offen, was wir fördern und wie viele Schülerinnen und Schüler wir unterstützen. Wer spendet, kann nachfragen, wohin das Geld geflossen ist — und bekommt eine klare Antwort."
+
+[about_gov_financial_title]
+other = "Finanzielle Rechenschaft"
+
+[about_gov_financial_desc]
+other = "Wir führen ordentliche Bücher. Die Mittel werden ausschließlich für den in der Satzung festgelegten Zweck verwendet. Prarthona i. G. befindet sich derzeit im Verfahren der Eintragung als gemeinnütziger Verein nach deutschem Recht."
+
+# ---------- Spenden ----------
+
+[donate_why_title]
+other = "Warum spenden"
+
+[donate_why_quote]
+other = "Bildung verändert Leben."
+
+[donate_why_body]
+other = "Ein Stipendium endet nicht bei einem Kind. Es verändert, was eine Familie für möglich hält — und wem das nächste Kind in diesem Haushalt beim Aufwachsen zusieht. Wir halten unsere Zahlen bewusst klein, damit jede Spende einem konkreten Menschen und einem realen Kostenpunkt zugeordnet werden kann."
+
+[donate_helps_title]
+other = "Was Ihre Spende bewirkt"
+
+[donate_helps_lede]
+other = "Wofür die einzelnen Beträge konkret verwendet werden."
+
+[donate_tier_20]
+other = "Bücher"
+
+[donate_tier_20_desc]
+other = "Lehrbücher und Lernmaterial für ein Halbjahr."
+
+[donate_tier_50]
+other = "Monatliche Unterstützung"
+
+[donate_tier_50_desc]
+other = "Laufende Kosten für eine Schülerin oder einen Schüler — Fahrt, Material, Prüfungsgebühren."
+
+[donate_tier_100]
+other = "Semesterkosten"
+
+[donate_tier_100_desc]
+other = "Die Kosten eines halben Schul- oder Studienjahres."
+
+[donate_tier_400]
+other = "Volles Stipendium, ein Jahr"
+
+[donate_tier_400_desc]
+other = "Deckt Gebühren und Begleitung einer Schülerin oder eines Schülers für ein ganzes Jahr."
+
+[donate_tier_month]
+other = "pro Monat"
+
+[donate_ways_title]
+other = "Wege zu spenden"
+
+[donate_way_bank]
+other = "Banküberweisung"
+
+[donate_way_bank_desc]
+other = "Eine SEPA-Überweisung verursacht keine Gebühren — der volle Betrag kommt an."
+
+[donate_way_paypal]
+other = "PayPal"
+
+[donate_way_paypal_desc]
+other = "Schnell und vertraut, mit wenigen Klicks erledigt."
+
+[donate_way_online]
+other = "Online-Zahlung"
+
+[donate_way_online_desc]
+other = "Kartenzahlung über unser Online-Spendenformular."
+
+[donate_way_monthly]
+other = "Dauerspende"
+
+[donate_way_monthly_desc]
+other = "Ein Dauerauftrag hilft uns am meisten — nur so können wir einem Kind Unterstützung für ein ganzes Jahr zusagen."
+
+[donate_way_corporate]
+other = "Unternehmenspartnerschaft"
+
+[donate_way_corporate_desc]
+other = "Unternehmen können ein benanntes Stipendium finanzieren, einen Jahrgang fördern oder Spenden der Belegschaft verdoppeln. Wir besprechen gern, was zu Ihrem Unternehmen passt."
+
+[donate_way_corporate_cta]
+other = "Über Partnerschaft sprechen"
+
+[donate_bank_holder]
+other = "Kontoinhaber"
+
+[donate_bank_iban]
+other = "IBAN"
+
+[donate_bank_bic]
+other = "BIC"
+
+[donate_bank_name]
+other = "Bank"
+
+[donate_bank_reference]
+other = "Verwendungszweck"
+
+[donate_bank_reference_value]
+other = "Spende — Ihr Name"
+
+[donate_not_configured]
+other = "Wird ergänzt"
+
+[donate_transparency_title]
+other = "Transparenz"
+
+[donate_transparency_body]
+other = "Spenden finanzieren Schul- und Studiengebühren, Lernmaterial und die direkten Kosten unserer Stipendien- und Mentoringarbeit. Die Mitglieder des Vorstands arbeiten ehrenamtlich. Alle Bewerbungen werden nach denselben zwei Kriterien geprüft — schulische Leistung und finanzielle Bedürftigkeit. Wer ein Stipendium finanziert, erfährt, wie sich die geförderte Person entwickelt."
+
+[donate_docs_title]
+other = "Berichte und Abschlüsse"
+
+[donate_doc_annual]
+other = "Jahresberichte"
+
+[donate_doc_financial]
+other = "Finanzberichte"
+
+[donate_doc_governance]
+other = "Satzung und Führung"
+
+[donate_doc_pending]
+other = "Auf Anfrage erhältlich"
+
+[donate_faq_title]
+other = "Häufige Fragen"
+
+[donate_faq_tax_q]
+other = "Ist meine Spende steuerlich absetzbar?"
+
+[donate_faq_tax_a]
+other = "Noch nicht. Prarthona i. G. befindet sich derzeit im Eintragungsverfahren als gemeinnütziger e.V.; die Anerkennung der Gemeinnützigkeit durch das Finanzamt steht noch aus. Solange das nicht bestätigt ist, können wir keine Zuwendungsbestätigungen für die Steuererklärung ausstellen — das sagen wir lieber klar, als etwas anderes anzudeuten. Sobald der Status vorliegt, aktualisieren wir diese Seite."
+
+[donate_faq_receipt_q]
+other = "Erhalte ich eine Spendenquittung?"
+
+[donate_faq_receipt_a]
+other = "Ja. Wir stellen eine Zuwendungsbestätigung für Ihre Steuererklärung aus. Bei kleineren Beträgen genügt dem Finanzamt in der Regel der Kontoauszug als Nachweis. Wenn Sie eine Bestätigung wünschen, geben Sie bitte Name und Anschrift bei der Spende an oder melden Sie sich im Nachhinein bei uns."
+
+[donate_faq_contact_q]
+other = "Kann ich bestimmen, wofür meine Spende verwendet wird?"
+
+[donate_faq_contact_a]
+other = "Ja. Wenn Sie ein bestimmtes Programm oder ein ganzes Stipendium fördern möchten, sprechen Sie uns an — wir richten das ein."
+
+# ---------- Neuigkeiten ----------
+
+[news_all]
+other = "Alle Beiträge"
+
+[news_browse]
+other = "Nach Kategorie"
+
+[news_empty]
+other = "Noch keine Beiträge."
+
+[news_read]
+other = "Lesen"

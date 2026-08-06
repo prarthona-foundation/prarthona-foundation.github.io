@@ -1,8 +1,5 @@
 ---
 title: "Donate"
-description: "Support our work with a donation."
+description: "How to support a student, what your donation pays for, and how we account for it."
+layout: donate
 ---
-
-## Donate Now
-
-*Placeholder — PayPal donation button and SEPA bank details will be added in Phase 2.*

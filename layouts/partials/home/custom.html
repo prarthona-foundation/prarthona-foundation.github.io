@@ -1,0 +1,158 @@
+{{/*
+  Prarthona Foundation homepage.
+
+  Copy lives in i18n/en.toml and i18n/de.toml.
+  Impact numbers live under [impact] in config/_default/params.toml.
+  Styling lives in assets/css/custom.css.
+*/}}
+
+{{/* Trailing slashes keep these canonical and avoid a redirect hop. */}}
+{{ $programs := "programs/" }}
+{{ $donate := "donate/" }}
+{{ $apply := "apply/" }}
+{{ $news := "news/" }}
+{{ $contact := "contact/" }}
+
+<div class="pf-home">
+
+  {{/* ---------- 1. Hero ---------- */}}
+  <section class="pf-hero">
+    <svg class="pf-hero__art" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice"
+         aria-hidden="true" focusable="false">
+      {{/* Rising arcs — growth and aspiration. */}}
+      <g fill="none" stroke="#ffffff" stroke-linecap="round">
+        <path d="M-40 350 Q 200 150 470 250 T 900 120" stroke-width="2" opacity="0.28"/>
+        <path d="M-40 385 Q 220 200 500 290 T 900 165" stroke-width="2" opacity="0.20"/>
+        <path d="M-40 315 Q 190 110 450 210 T 900 75"  stroke-width="2" opacity="0.14"/>
+      </g>
+      {{/* Open book at the base. */}}
+      <g opacity="0.16" fill="#ffffff">
+        <path d="M596 300 q 44 -26 92 -10 v 78 q -48 -16 -92 10 z"/>
+        <path d="M600 300 q -44 -26 -92 -10 v 78 q 48 -16 92 10 z"/>
+      </g>
+      {{/* Ascending points — students. */}}
+      <g fill="#ffffff">
+        <circle cx="120" cy="255" r="6" opacity="0.45"/>
+        <circle cx="235" cy="205" r="8" opacity="0.38"/>
+        <circle cx="360" cy="235" r="5" opacity="0.42"/>
+        <circle cx="470" cy="160" r="9" opacity="0.30"/>
+        <circle cx="615" cy="120" r="6" opacity="0.34"/>
+        <circle cx="720" cy="88"  r="11" opacity="0.22"/>
+      </g>
+    </svg>
+
+    <div class="pf-hero__inner">
+      <h1 class="pf-hero__title">{{ i18n "home_hero_headline" }}</h1>
+      <p class="pf-hero__sub">{{ i18n "home_hero_subheading" }}</p>
+      <div class="pf-cta-row">
+        <a class="pf-btn pf-btn--solid" href="{{ relLangURL $donate }}">
+          {{ i18n "home_cta_donate" }}
+        </a>
+        <a class="pf-btn pf-btn--outline" href="{{ relLangURL $apply }}">
+          {{ i18n "home_cta_apply" }}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- 2. Impact ---------- */}}
+  <section>
+    <div class="pf-section__head">
+      <h2 class="pf-section__title">{{ i18n "home_impact_title" }}</h2>
+    </div>
+    <div class="pf-stats">
+      <div class="pf-stat">
+        <span class="pf-stat__num">{{ site.Params.impact.students }}</span>
+        <span class="pf-stat__label">{{ i18n "home_impact_students" }}</span>
+      </div>
+      <div class="pf-stat">
+        <span class="pf-stat__num">{{ site.Params.impact.scholarships }}</span>
+        <span class="pf-stat__label">{{ i18n "home_impact_scholarships" }}</span>
+      </div>
+      <div class="pf-stat">
+        <span class="pf-stat__num">{{ site.Params.impact.years }}</span>
+        <span class="pf-stat__label">{{ i18n "home_impact_years" }}</span>
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- 3. Mission ---------- */}}
+  <section>
+    <div class="pf-section__head">
+      <h2 class="pf-section__title">{{ i18n "home_mission_title" }}</h2>
+    </div>
+    <p class="pf-mission__body">{{ i18n "home_mission_body" }}</p>
+  </section>
+
+  {{/* ---------- 4. Programs ---------- */}}
+  <section>
+    <div class="pf-section__head">
+      <h2 class="pf-section__title">{{ i18n "home_programs_title" }}</h2>
+      <p class="pf-section__lede">{{ i18n "home_programs_lede" }}</p>
+    </div>
+    <div class="pf-cards">
+      <a class="pf-card" href="{{ relLangURL $programs }}#scholarship">
+        <h3 class="pf-card__title">{{ i18n "home_program_scholarship_title" }}</h3>
+        <p class="pf-card__text">{{ i18n "home_program_scholarship_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "home_program_more" }} &rarr;</span>
+      </a>
+      <a class="pf-card" href="{{ relLangURL $programs }}#mentorship">
+        <h3 class="pf-card__title">{{ i18n "home_program_mentorship_title" }}</h3>
+        <p class="pf-card__text">{{ i18n "home_program_mentorship_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "home_program_more" }} &rarr;</span>
+      </a>
+      <a class="pf-card" href="{{ relLangURL $programs }}#progress-review">
+        <h3 class="pf-card__title">{{ i18n "home_program_review_title" }}</h3>
+        <p class="pf-card__text">{{ i18n "home_program_review_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "home_program_more" }} &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  {{/* ---------- 5. Latest news ---------- */}}
+  <section>
+    <div class="pf-section__head">
+      <h2 class="pf-section__title">{{ i18n "home_news_title" }}</h2>
+    </div>
+    {{ $posts := first 4 (where site.RegularPages "Section" "news") }}
+    {{ if $posts }}
+      <div class="pf-news">
+        {{ range $posts }}
+          <a class="pf-news__item" href="{{ .RelPermalink }}">
+            <span class="pf-news__title">{{ .Title }}</span>
+            <span class="pf-news__date">{{ .Date | time.Format (site.Params.dateFormat | default "2 January 2006") }}</span>
+          </a>
+        {{ end }}
+      </div>
+      <a class="pf-more-link" href="{{ relLangURL $news }}">{{ i18n "home_news_all" }} &rarr;</a>
+    {{ else }}
+      <p class="pf-news__empty">{{ i18n "home_news_empty" }}</p>
+    {{ end }}
+  </section>
+
+  {{/* ---------- 6. Get involved ---------- */}}
+  <section>
+    <div class="pf-section__head">
+      <h2 class="pf-section__title">{{ i18n "home_involved_title" }}</h2>
+      <p class="pf-section__lede">{{ i18n "home_involved_lede" }}</p>
+    </div>
+    <div class="pf-cards">
+      <a class="pf-card" href="{{ relLangURL $donate }}">
+        <h3 class="pf-card__title">{{ i18n "home_involved_donate_title" }}</h3>
+        <p class="pf-card__text">{{ i18n "home_involved_donate_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "home_cta_donate" }} &rarr;</span>
+      </a>
+      <a class="pf-card" href="{{ relLangURL $contact }}">
+        <h3 class="pf-card__title">{{ i18n "home_involved_volunteer_title" }}</h3>
+        <p class="pf-card__text">{{ i18n "home_involved_volunteer_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "home_involved_contact" }} &rarr;</span>
+      </a>
+      <a class="pf-card" href="{{ relLangURL $contact }}">
+        <h3 class="pf-card__title">{{ i18n "home_involved_partner_title" }}</h3>
+        <p class="pf-card__text">{{ i18n "home_involved_partner_desc" }}</p>
+        <span class="pf-card__more">{{ i18n "home_involved_contact" }} &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+</div>

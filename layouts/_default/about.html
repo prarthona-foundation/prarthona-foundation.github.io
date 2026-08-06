@@ -1,0 +1,130 @@
+{{/*
+  About page layout.
+
+  "Our Story" prose comes from the markdown body of
+  content/about/_index.<lang>.md — edit it there.
+  Everything else reads from i18n/en.toml and i18n/de.toml.
+
+  Activated by `layout: about` in that page's front matter.
+*/}}
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+  </header>
+
+  <div class="pf-home mt-10">
+
+    {{/* ---------- 1. Our Story ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "about_story_title" }}</h2>
+      </div>
+      <div class="prose dark:prose-invert max-w-none">
+        {{ .Content }}
+      </div>
+    </section>
+
+    {{/* Vision / Mission / Core Values */}}
+    <section>
+      <div class="pf-cards">
+        <div class="pf-card">
+          <span class="pf-card__icon">{{ partial "icon.html" "lightbulb" }}</span>
+          <h3 class="pf-card__title">{{ i18n "about_vision_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_vision_desc" }}</p>
+        </div>
+        <div class="pf-card">
+          <span class="pf-card__icon">{{ partial "icon.html" "graduation-cap" }}</span>
+          <h3 class="pf-card__title">{{ i18n "about_mission_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_mission_desc" }}</p>
+        </div>
+        <div class="pf-card">
+          <span class="pf-card__icon">{{ partial "icon.html" "heart" }}</span>
+          <h3 class="pf-card__title">{{ i18n "about_values_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_values_desc" }}</p>
+        </div>
+      </div>
+    </section>
+
+    {{/* ---------- 2. Our Philosophy ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "about_philosophy_title" }}</h2>
+      </div>
+      <blockquote class="pf-quote">
+        <p class="pf-quote__text">{{ i18n "about_philosophy_quote" }}</p>
+      </blockquote>
+      <p class="pf-mission__body">{{ i18n "about_philosophy_body" }}</p>
+    </section>
+
+    {{/* ---------- 3. How We Work ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "about_how_title" }}</h2>
+        <p class="pf-section__lede">{{ i18n "about_how_lede" }}</p>
+      </div>
+      {{ $steps := slice
+        (dict "key" "application" "n" "01")
+        (dict "key" "selection"   "n" "02")
+        (dict "key" "award"       "n" "03")
+        (dict "key" "review"      "n" "04")
+        (dict "key" "graduation"  "n" "05")
+        (dict "key" "alumni"      "n" "06")
+      }}
+      <ol class="pf-flow">
+        {{ range $i, $s := $steps }}
+          {{ if $i }}
+            <li class="pf-flow__arrow" aria-hidden="true">&rarr;</li>
+          {{ end }}
+          <li class="pf-flow__step">
+            <span class="pf-flow__num">{{ $s.n }}</span>
+            <span class="pf-flow__label">{{ i18n (printf "about_step_%s" $s.key) }}</span>
+            <span class="pf-flow__desc">{{ i18n (printf "about_step_%s_desc" $s.key) }}</span>
+          </li>
+        {{ end }}
+      </ol>
+    </section>
+
+    {{/* ---------- 4. Our Team ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "about_team_title" }}</h2>
+      </div>
+      <div class="pf-cards">
+        <div class="pf-card">
+          <h3 class="pf-card__title">{{ i18n "about_team_exec_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_team_exec_desc" }}</p>
+        </div>
+        <div class="pf-card">
+          <h3 class="pf-card__title">{{ i18n "about_team_founding_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_team_founding_desc" }}</p>
+        </div>
+        <div class="pf-card">
+          <h3 class="pf-card__title">{{ i18n "about_team_volunteers_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_team_volunteers_desc" }}</p>
+        </div>
+      </div>
+    </section>
+
+    {{/* ---------- 5. Governance ---------- */}}
+    <section>
+      <div class="pf-section__head">
+        <h2 class="pf-section__title">{{ i18n "about_gov_title" }}</h2>
+      </div>
+      <div class="pf-cards">
+        <div class="pf-card">
+          <span class="pf-card__icon">{{ partial "icon.html" "eye" }}</span>
+          <h3 class="pf-card__title">{{ i18n "about_gov_transparency_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_gov_transparency_desc" }}</p>
+        </div>
+        <div class="pf-card">
+          <span class="pf-card__icon">{{ partial "icon.html" "scale-balanced" }}</span>
+          <h3 class="pf-card__title">{{ i18n "about_gov_financial_title" }}</h3>
+          <p class="pf-card__text">{{ i18n "about_gov_financial_desc" }}</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+{{ end }}
