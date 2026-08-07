@@ -877,3 +877,19 @@ html.dark .pf-contact {
 html.dark .pf-contact__key { color: rgb(var(--color-neutral-400)); }
 html.dark .pf-contact__val { color: rgb(var(--color-neutral-100)); }
 html.dark .pf-contact__val a { color: rgb(var(--color-primary-400)); }
+
+/* ---------- Header logo ---------- */
+
+/* The theme caps the logo at 80x80 (max-h-20 max-w-20), which renders a wide
+   wordmark far too small. These rules are unlayered so they win over the
+   theme's layered Tailwind utilities. */
+.logo {
+  max-width: 15rem;
+  max-height: 4.5rem;
+}
+
+/* The wordmark is navy, which barely reads on a dark ground, so swap in a
+   variant whose lettering is light. The sun and leaves are unchanged. */
+html.dark .logo {
+  content: url("/img/logo-dark.png");
+}

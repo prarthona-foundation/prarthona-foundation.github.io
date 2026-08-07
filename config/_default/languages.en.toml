@@ -8,7 +8,7 @@ title = "Prarthona i. G."
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = ""
+  logo = "img/logo.png"
   description = "Prarthona i. G. – a non-profit organization supporting scholarships and education."
 
 [params.author]
